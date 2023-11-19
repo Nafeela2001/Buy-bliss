@@ -1,0 +1,119 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.all-free-download.com/images/graphiclarge/ecommerce_background_shop_smartphone_card_bags_icons_6837952.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.top-bar {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.top-bar button {
+  background-color: #fff;
+  color: #009688;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-details {
+  padding: 1rem;
+}
+
+.product h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.product p {
+  color: #555;
+}
+
+.product-description {
+  margin-top: 0.5rem;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #009688;
+  margin-bottom: 1rem;
+}
+
+.product button {
+  background-color: #009688;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-item {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product {
+      width: 100%;
+      margin: 0;
+  }
+}
+
